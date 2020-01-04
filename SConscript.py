@@ -19,7 +19,7 @@ cppenv = Environment()
 cppenv['ENV']['TERM'] = os.environ['TERM']
 cppenv['STATIC_AND_SHARED_OBJECTS_ARE_THE_SAME'] = 1
 
-cppenv.Append( CCFLAGS = '-Wall -O3 -std=c++11 -fPIC' )
+cppenv.Append( CCFLAGS = '-Wall -O3 -std=c++17 -fPIC' )
 cppenv.Append( CCFLAGS = [
     
 ])
